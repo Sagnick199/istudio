@@ -1,0 +1,15 @@
+# (optional) create & activate venv
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+pip install numpy scipy opencv-python matplotlib reportlab
+
+# Run with your extracted dataset
+python pca_ann_face_recognition.py \
+  --dataset_root "dataset_extracted" \
+  --output_dir "face_outputs" \
+  --img_h 64 --img_w 64 \
+  --epochs 30 --lr 0.01 \
+  --k_values 10,20,30,40

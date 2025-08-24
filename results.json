@@ -1,0 +1,39 @@
+{
+  "k_values": [
+    10,
+    20
+  ],
+  "train_acc": [
+    1.0,
+    1.0
+  ],
+  "test_acc_enrolled": [
+    1.0,
+    1.0
+  ],
+  "open_set_metrics": [
+    {
+      "threshold": 1.0,
+      "enrolled_accuracy_open": 1.0,
+      "imposter_detection_rate": NaN,
+      "n_test_enrolled": 180,
+      "n_test_imposters": 0
+    },
+    {
+      "threshold": 1.0,
+      "enrolled_accuracy_open": 1.0,
+      "imposter_detection_rate": NaN,
+      "n_test_enrolled": 180,
+      "n_test_imposters": 0
+    }
+  ],
+  "best_k": 10,
+  "subjects": [
+    "dataset"
+  ],
+  "img_size": [
+    64,
+    64
+  ],
+  "imposter_subjects": []
+}
