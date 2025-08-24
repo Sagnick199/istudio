@@ -15,14 +15,14 @@
     {
       "threshold": 1.0,
       "enrolled_accuracy_open": 1.0,
-      "imposter_detection_rate": NaN,
+      "imposter_detection_rate": null,
       "n_test_enrolled": 180,
       "n_test_imposters": 0
     },
     {
       "threshold": 1.0,
       "enrolled_accuracy_open": 1.0,
-      "imposter_detection_rate": NaN,
+      "imposter_detection_rate": null,
       "n_test_enrolled": 180,
       "n_test_imposters": 0
     }
